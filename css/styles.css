@@ -1,0 +1,113 @@
+.header {
+font-family: 'Roboto', sans-serif;
+}
+ 
+
+.header-logo {
+    font-family: 'Raleway', sans-serif
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.header-list {
+    color: rgba(0, 0, 0, 0.25);
+}
+.header-items-studio{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+
+}
+.header-items-portfolio{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
+
+.header-items {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+
+}
+
+.header-contacts-mail{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
+.header-contacts-tel{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    background-color: #2196F3;
+    cursor: pointer;
+}
+
+.portfolio-project-list {
+    color: #212121;
+}
+
+
+.portfolio-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.00;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.portfolio-pre-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.footer {
+    background: #2F303A;
+}
+.footer-logo {
+    font-family: 'Raleway', sans-serif
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.footer-contacts-list {
+    color: #FFFFFF;
+}
+
+.footer-contacts-items :hover,
+.footer-contacts-items :focus {
+    color: #FFFFFF;
+}
