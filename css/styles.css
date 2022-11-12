@@ -69,8 +69,8 @@ a{
     letter-spacing: 0.02em;
     color: var(--accent-color)
 }
-.header-contacts :hover,
-.header-contacts :focus {
+.header-list-contacts :hover,
+.header-list-contacts :focus {
     color: brown;
 }
 /*--------------------PORTFOLIO--------------------*/
@@ -124,6 +124,12 @@ a{
     letter-spacing: 0.06em;
     color: var(--primary-header-color)
 }
+.main-btn:hover,
+.main-btn:focus {
+    background-color: #2196F3;
+    cursor: pointer;
+}
+
 /*--------------------FEATURE--------------------*/
 .feature-title {
     font-weight: 700;
@@ -195,10 +201,31 @@ a{
 .footer-contacts-list {
     color: var(--primary-header-color)
 }
+.footer-contacts-tel{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    }
+.footer-contacts-mail{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-contacts-address{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
 
-.footer-contacts-items :hover,
-.footer-contacts-items :focus {
-    color: var(--primary-header-color)
+.footer-contacts-list :hover,
+.footer-contacts-list :focus {
+    color: orange
 }
 
 
