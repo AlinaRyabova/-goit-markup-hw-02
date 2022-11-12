@@ -9,7 +9,9 @@ body{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
 }
-
+a{
+    text-decoration: none;
+}
 
 /*--------------------HEADER--------------------*/
  
