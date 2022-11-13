@@ -207,16 +207,14 @@ body{
 .footer-accent-text {
     color: var(--primary-link-color);
 }
-.footer-contacts-list {
-    list-style-type: none; 
- }
+
 .footer-text {
     font-weight: 400;
     line-height: 1.71;
     color: var(--primary-header-color);
     }
-.footer-contacts-list :hover,
-.footer-contacts-list :focus {
+.footer-contacts :hover,
+.footer-contacts :focus {
     color: var(--primary-link-color);
 }
 
