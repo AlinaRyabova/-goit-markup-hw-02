@@ -211,40 +211,27 @@ body{
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    color: var(--primary-header-color)
+}
+.footer-accent-text{
     color: #2196F3;
 }
 
 .footer-contacts-list {
+    list-style-type: none; 
   
 }
-.footer-contacts-tel{
+.footer-text{
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    Fill: Solid
-rgba(255, 255, 255, 0.6)
-    list-style-type: none; 
+   color: #FFFFFF;
     }
-.footer-contacts-mail{
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
-    list-style-type: none; 
-}
-.footer-contacts-address{
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
-    list-style-type: none; 
-}
+
 
 .footer-contacts-list :hover,
 .footer-contacts-list :focus {
-    color: white;
+    color: #2196F3;
 }
 
