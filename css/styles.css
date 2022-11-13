@@ -34,6 +34,9 @@ body{
 .accent-text {
     color: #2196F3;
 }
+.header-text-studio{
+    color: var(--primary-link-color);
+}
 
 
 .header-text {
