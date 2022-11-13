@@ -16,7 +16,7 @@ body{
 }
 .link{
     text-decoration: none;
-    font-style: normal;
+   
 }
 
 /*--------------------HEADER--------------------*/
@@ -46,13 +46,10 @@ body{
     color: var(--accent-color);
 }
 
-.header-list :hover,
-.header-list :focus,
+.header-link :hover,
+.header-link :focus,
 .header-contacts :hover,
-.header-contacts :focus,
-.header-text :hover,
-.header-text :focus
-{
+.header-contacts :focus{
     color:  var(--primary-link-color);
 }
 /*--------------------PORTFOLIO--------------------*/
@@ -193,11 +190,19 @@ body{
     color: var(--primary-link-color);
 }
 .footer-text {
-    text-decoration: none;
+    font-style: normal;
     font-weight: 400;
+    font-size: 14px;
     line-height: 1.71;
-    color: var(--primary-header-color);
-    }
+    color: rgba(255, 255, 255, 0.6);
+ }
+.footer-text-adress{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: #FFFFFF;
+}
 .footer-contacts :hover,
 .footer-contacts :focus {
     color: var(--primary-link-color);
