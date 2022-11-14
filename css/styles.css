@@ -64,8 +64,10 @@ body{
 }
 .portfolio-btn-link{
     list-style-type: none;
+    font-family: inherit;
 }
 .portfolio-btn-active{
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -73,6 +75,7 @@ body{
     background: var(--primary-link-color)
 }
 .portfolio-btn{
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -101,7 +104,7 @@ body{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    color: var(--second-header-color);
+    color: var(--accent-color);
 }
 /*--------------------MAIN--------------------*/
 .main-cap{
@@ -139,6 +142,7 @@ body{
 }
 .feature-title {
     font-style: normal;
+    font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--second-header-color);
